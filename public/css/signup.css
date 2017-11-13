@@ -1,0 +1,65 @@
+body{
+  width: 30%;
+  margin: auto;
+}
+
+#titulo {
+text-align: center;
+background-color:black;
+color:white;
+height: 80px;
+width: 100%;
+padding-top: 25px;
+margin-top: 150px;
+
+}
+
+#borde {
+border: solid 1px black;
+background-image:url("http://icons.iconarchive.com/icons/custom-icon-design/flatastic-3/256/signup-icon.png");
+background-repeat: no-repeat;
+background-size: 100px 60px;
+background-position-x: 10%;
+background-position-y: 10%;
+}
+
+#nom {
+  padding-right: 30px;
+
+  text-align: right;
+}
+
+#email {
+padding-right: 30px;
+  text-align: right;
+
+}
+
+#password {
+padding-right: 30px;
+  text-align: right;
+
+}
+
+#password2 {
+padding-right: 30px;
+  text-align: right;
+
+}
+#boton {
+  text-align: right;
+  float: right;
+}
+
+#atras {
+  text-align: right;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}

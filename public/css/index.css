@@ -1,0 +1,47 @@
+body{
+  width: 30%;
+  margin: auto;
+}
+
+#titulo {
+text-align: center;
+background-color:black;
+color:white;
+height: 80px;
+width: 100%;
+padding-top: 25px;
+margin-top: 150px;
+
+}
+
+#izquierda {
+  text-decoration: none;
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 50px;
+  list-style: none;
+  color: black;
+  border: solid 1px black;
+  padding-top: 30px;
+}
+
+#derecha{
+  text-decoration: none;
+  float: right;
+  width: 49%;
+  text-align: center;
+  height: 50px;
+  list-style: none;
+  color: black;
+  border: solid 1px black;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}

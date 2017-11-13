@@ -1,0 +1,48 @@
+body{
+  width: 30%;
+  margin: auto;
+}
+
+#titulo {
+text-align: center;
+background-color:black;
+color:white;
+height: 80px;
+width: 100%;
+padding-top: 25px;
+margin-top: 150px;
+
+}
+
+#borde {
+border: solid 1px black;
+
+}
+#email {
+
+  text-align: center;
+
+}
+#centro {
+
+  text-align: center;
+    padding-right: 20px;
+}
+
+#boton {
+  text-align: right;
+float: right;
+}
+
+#atras {
+text-align: right;
+float: left;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}

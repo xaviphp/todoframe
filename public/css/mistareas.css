@@ -1,0 +1,56 @@
+body{
+  width: 50%;
+  margin: auto;
+}
+
+#titulo {
+text-align: center;
+background-color:black;
+color:white;
+height: 80px;
+width: 100%;
+padding-top: 25px;
+margin-top: 150px;
+
+}
+
+#borde {
+border: solid 1px black;
+width: 100%;
+
+}
+
+.porcentaje1 {
+width: 20%;
+border: solid 1px black;
+text-align: center;
+border-spacing: collapse;
+background-color: black;
+color: white;
+font-size: 25px;
+}
+
+.porcentaje {
+width: 20%;
+border: solid 1px black;
+text-align: center;
+border-spacing: collapse;
+}
+
+#crear {
+  margin-top: 10px;
+}
+
+#salir{
+  margin-top: 10px;
+  float: right;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}

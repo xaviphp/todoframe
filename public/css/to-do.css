@@ -1,0 +1,32 @@
+body{
+  width: 30%;
+  margin: auto;
+}
+
+#titulo {
+text-align: center;
+background-color:black;
+color:white;
+height: 80px;
+width: 100%;
+padding-top: 25px;
+margin-top: 150px;
+
+}
+#salir{
+  margin-top: 10px;
+  float: right;
+}
+
+#tareas{
+  margin-top: 10px;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
