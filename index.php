@@ -1,18 +1,22 @@
-
 <?php
-require_once 'lib/init.php';
-?>
+	// developer mode
+	error_reporting(E_ALL);
+	ini_set('display_errors',1);
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="public/css/index.css">
-    <title>To-Do LIST</title>
-  </head>
-  <body>
-    <h1 id="titulo">To-Do List</h1>
-    <li id="izquierda"><a href="signup.php">Sign Up</a></li>
-    <li id="derecha"><a href="signin.php">Sign In</a></li>
-  </body>
-</html>
+	//config file
+	require_once 'x.inc.php';
+
+	use \X\Sys\Autoload;
+	use \X\Sys\Core;
+        use X\Sys\Session;
+
+	$loader=new Autoload();
+	$loader->register();
+	$loader->addNamespace('X\Sys','sys');
+	$loader->addNamespace('X\App','app');
+	$loader->addNamespace('X\App\Controllers','app/controllers');
+	$loader->addNamespace('X\App\Models','app/models');
+	$loader->addNamespace('X\App\Views','app/views');	
+        
+        Session::init();
+	Core::init();
