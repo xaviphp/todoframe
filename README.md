@@ -1,8 +1,7 @@
 # X
-PHP framework. We use this framework to study design patterns. 
+Adaptamos el Framework al todo-list
 
 ## Development mode
-
 
 ### Configuration
 
@@ -12,4 +11,4 @@ If we want to change our database configuration we can do it in two environments
 >..*development, we use the array key **dbconf_dev**
 
 # todoframe
-# todoframe
+Xavi Lagüens Serret
