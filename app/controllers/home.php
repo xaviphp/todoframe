@@ -5,10 +5,16 @@
    use X\Sys\Controller;
 
 
-   
+ /**
+ * Class HomeController
+ *
+ * @package App\Controllers
+ */
    class Home extends Controller{
    		
-
+/**
+* HomeController constructor.
+*/
    		public function __construct($params){
    			parent::__construct($params);
             $this->addData(array(
